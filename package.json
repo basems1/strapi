@@ -1,0 +1,37 @@
+{
+  "name": "logrocket-server-side",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.25.8",
+    "@strapi/plugin-i18n": "4.12.5",
+    "@strapi/plugin-users-permissions": "4.12.5",
+    "@strapi/strapi": "4.12.5",
+    "better-sqlite3": "8.5.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-is": "^18.3.1",
+    "react-router-dom": "^5.3.4",
+    "strapi-plugin-wysiwyg-react-md-editor": "^4.3.0",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "ca2ae640-b097-4e85-8915-3f80408d17b1"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
